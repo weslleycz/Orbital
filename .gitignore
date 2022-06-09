@@ -1,0 +1,15 @@
+# IDE related
+.vs_code/
+
+# Dependencies
+node_modules/
+
+# builds
+dist/
+electron-build/
+
+# todo
+todo
+
+*.DS_Store
+.DS_Store
