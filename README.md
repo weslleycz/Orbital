@@ -2,7 +2,7 @@
 
 ---
 
-This is a minimalistic boilerplate for developing desktop applications using Electron and ReactJS, along with ExpressJS and Webpack.
+This is a minimalistic boilerplate for developing desktop applications using Electron and ReactJS, along with ExpressJS, Prisma and Webpack.
 
 This is built on top of [orbital](https://github.com/weslleycz/Orbital), with some changes to accomodate Electron.
 
