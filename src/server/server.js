@@ -21,7 +21,7 @@ if (process.env.NODE_ENV === "development") {
     })
   );
   app.use(webpackHotMiddleware(compiler));
-  app.get("*", (req, res, next) => {
+  app.get("/", (req, res, next) => {
     compiler.outputFileSystem.readFile(HTML_FILE, (err, result) => {
       if (err) {
         return next(err);
@@ -34,7 +34,7 @@ if (process.env.NODE_ENV === "development") {
 } else if (process.env.NODE_ENV === "production") {
   app.use(express.static(DIST_DIR));
 
-  app.get("*", (req, res) => {
+  app.get("/", (req, res) => {
     res.sendFile(HTML_FILE);
   });
 }

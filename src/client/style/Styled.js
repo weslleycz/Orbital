@@ -6,8 +6,8 @@ code {
     monospace;
 }
 .App {
-  text-align: center;
-  margin:0%;
+text-align: center;
+margin:0%;
 padding:0%;
 background-color: #282c34;
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
